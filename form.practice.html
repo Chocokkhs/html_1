@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- placehodler 입력 박스에 미리 보여주는 역할-->
+    <form action="./result.html" method="get">
+        ><fieldset>
+            <legend>제품 리뷰</legend>
+
+        <div>
+        
+            <label for="name">상품명:</label>
+            <input type="text" name="name" placeholder="상품명" autocomplete="on" required>
+        
+        </div>
+        
+        <div>
+        
+            <label for="title">제목:</label>
+            <input type="text" name="title" placehodler="패스워드" autocomplete="on" required>
+        
+        </div>
+        
+    
+        <label for="summary">내용:</label>
+        <div>
+        
+            <textarea name="summary" rows="10" cols="30"></textarea>
+        
+        </div>
+        <label>만족도:</label>
+        <div>
+            <input type="checkbox" name="type_2_1" value="1day">
+            <label for="type_2_1">좋아요</label>
+            <input type="checkbox" name="type_2_2" value="1week">
+            <label for="type_2_2">나빠요</label>
+            <input type="checkbox" name="type_2_3" value="1month">
+            <label for="type_2_3">싫어요</label>
+        </div>
+
+        <div>
+            <button type="submit">제출</button>
+        </div>
+
+    </fieldset>
+
+    </form>
+</body>
+</html>
